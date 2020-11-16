@@ -33,7 +33,6 @@ bool invert(int input){
   return false;
 }
 void updateControl(){
-  if()
       if(Delay.ready()){
         gain = 1-gain; // flip 0/1
         if(count<2){
