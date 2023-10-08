@@ -5,8 +5,8 @@
 #include <AudioDelay.h>
 #include <EventDelay.h>
 
-Oscil<SIN8192_NUM_CELLS, AUDIO_RATE> aCos2(SIN8192_DATA);
 Oscil<SIN8192_NUM_CELLS, AUDIO_RATE> aCos1(SIN8192_DATA);
+Oscil<SIN8192_NUM_CELLS, AUDIO_RATE> aCos2(SIN8192_DATA);
 Oscil<SIN8192_NUM_CELLS, AUDIO_RATE> aCos3(SIN8192_DATA);
 
 #define CONTROL_RATE 128 // Hz, powers of 2 are most reliable

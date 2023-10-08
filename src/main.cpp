@@ -18,9 +18,9 @@ void setup(){
   startMozzi(CONTROL_RATE);
   aSin.setFreq(330); // set the frequency
   Delay.set(1000); // 1 second countdown, within resolution of CONTROL_RATE
-  pinMode(7,INPUT_PULLUP);
-  pinMode(6,INPUT_PULLUP);
-  pinMode(5,INPUT_PULLUP);
+  pinMode(11,INPUT_PULLUP);
+  pinMode(10,INPUT_PULLUP);
+  pinMode(9,INPUT_PULLUP);
   Serial.begin(9600);
 }
 bool invert(int input){
